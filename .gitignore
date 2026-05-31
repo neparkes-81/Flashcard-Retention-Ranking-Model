@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Large data files / Data information
+data/fr_*.key
+data/fr_en.slam.20190204.dev
+data/fr_en.slam.20190204.test
+data/fr_en.slam.20190204.train
+data/CHANGELOG.md
+data/LICENSE.md
