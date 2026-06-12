@@ -20,7 +20,9 @@ The project is organized into three part: **exploratory data analysis**, **featu
     Second Language Acquisition Modeling.
     In Proceedings of the NAACL-HLT Workshop on Innovative Use of NLP for Building Educational Applications (BEA). ACL.
 
-    Dou, Z. Y., & Neubig, G. (2021, April). Word alignment by fine-tuning embeddings on parallel corpora. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume (pp. 2112-2128).
+    Dou, Z. Y., & Neubig, G. (2021, April). 
+    Word alignment by fine-tuning embeddings on parallel corpora. 
+    In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume (pp. 2112-2128).
 
     French-to-English translation powered by [Helsinki-NLP/opus-mt-fr-en](https://huggingface.co/Helsinki-NLP/opus-mt-fr-en) 
     from the University of Helsinki's NLP group, via HuggingFace Transformers. 
