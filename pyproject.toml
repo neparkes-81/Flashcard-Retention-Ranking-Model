@@ -3,10 +3,12 @@ name = "retention-flashcards"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
+    "awesome-align>=0.1.7",
     "ipykernel>=7.2.0",
     "pandas>=3.0.3",
+    "python-levenshtein>=0.27.3",
     "scipy>=1.17.1",
     "seaborn>=0.13.2",
     "sentencepiece>=0.2.1",
