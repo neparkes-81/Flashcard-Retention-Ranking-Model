@@ -10,11 +10,4 @@ wheels/
 .venv
 
 # Large data files / Data information
-data/fr_*.key
-data/fr_en.slam.20190204.dev
-data/fr_en.slam.20190204.test
-data/fr_en.slam.20190204.train
-data/CHANGELOG.md
-data/LICENSE.md
-data/CITING.md
-data/OpenLexicon.tsv
+data/
