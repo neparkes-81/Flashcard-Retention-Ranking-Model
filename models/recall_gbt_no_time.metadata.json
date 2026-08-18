@@ -1,0 +1,45 @@
+{
+  "feature_columns": [
+    "POS",
+    "Dependency-Relation",
+    "Dependancy-Head",
+    "nth_occurrence",
+    "overall_recall_rate",
+    "token_recall_rate",
+    "token_streak",
+    "syllable_count",
+    "ortho_freq",
+    "lev_ratio",
+    "Definite",
+    "Gender",
+    "Number",
+    "Person",
+    "PronType",
+    "Mood",
+    "Tense",
+    "VerbForm",
+    "Reflex"
+  ],
+  "categorical_features": [
+    "POS",
+    "Dependency-Relation",
+    "Definite",
+    "Gender",
+    "Number",
+    "PronType",
+    "Mood",
+    "Tense",
+    "VerbForm",
+    "Reflex",
+    "Person"
+  ],
+  "target": "p_recall",
+  "target_meaning": "1 = learner made a mistake; predict_proba[:, 1] is P(error)",
+  "higher_score_means": "harder card / higher flashcard priority",
+  "roc_auc": 0.7583,
+  "n_train_rows": 656753,
+  "versions": {
+    "lightgbm": "4.6.0",
+    "scikit-learn": "1.9.0"
+  }
+}
